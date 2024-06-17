@@ -18,13 +18,16 @@ const MovieCard = ({ movie }) => {
         className="p-2 hover:cursor-pointer border border-1 border-gray-500 rounded-md flex items-center justify-center flex-col"
       >
         <Image
-          src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
+          src={`https://image.tmdb.org/t/p/w500${
+            movie.poster_path || movie.backdrop_path
+          }`}
           alt={movie.title || movie.name}
-          width={500}
-          height={300}
+          width={250}
+          height={150}
+          loading="lazy"
           className="rounded-md self-center"
         />
-        <div className="my-2 space-y-1">
+        <div className="my-2 space-y-3">
           <h2 className="mt-2 text-lg font-bold">
             {movie.title || movie.name}
           </h2>
