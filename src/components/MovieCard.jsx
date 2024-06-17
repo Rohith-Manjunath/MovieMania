@@ -11,7 +11,7 @@ const MovieCard = ({ movie }) => {
       <Tilt
         tiltMaxAngleX={10}
         tiltMaxAngleY={10}
-        key={movie.id}
+        key={movie?.id}
         transitionSpeed={600}
         glareEnable={true}
         glareMaxOpacity={0.2} // Use a value between 0 and 1
@@ -19,9 +19,9 @@ const MovieCard = ({ movie }) => {
       >
         <Image
           src={`https://image.tmdb.org/t/p/w500${
-            movie.poster_path || movie.backdrop_path
+            movie?.poster_path || movie?.backdrop_path
           }`}
-          alt={movie.title || movie.name}
+          alt={movie?.title || movie?.name}
           width={250}
           height={150}
           loading="lazy"
@@ -29,19 +29,19 @@ const MovieCard = ({ movie }) => {
         />
         <div className="my-2 space-y-3">
           <h2 className="mt-2 text-lg font-bold">
-            {movie.title || movie.name}
+            {movie?.title || movie?.name}
           </h2>
-          <p className="mt-1 text-[15px] line-clamp-2">{movie.overview}</p>
+          <p className="mt-1 text-[15px] line-clamp-2">{movie?.overview}</p>
           <div className="flex items-center justify-between gap-2">
-            <span>{movie.first_air_date || movie.release_date}</span>
+            <span>{movie?.first_air_date || movie?.release_date}</span>
             <div className="flex items-center justify-center gap-4">
               <div className="flex items-center justify-center gap-1">
                 <FaStar />
-                <span className="mr-1">{movie.vote_average}</span>
+                <span className="mr-1">{movie?.vote_average}</span>
               </div>
               <div className="flex items-center justify-center gap-1">
                 <FaRegThumbsUp />
-                <span className="ml-1">{movie.vote_count}</span>
+                <span className="ml-1">{movie?.vote_count}</span>
               </div>
             </div>
           </div>
