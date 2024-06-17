@@ -1,5 +1,4 @@
 import MovieList from "@/components/MovieList";
-import React from "react";
 
 const SearchPage = async ({ params }) => {
   const res = await fetch(

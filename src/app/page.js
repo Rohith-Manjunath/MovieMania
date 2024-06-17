@@ -1,4 +1,3 @@
-import React from "react";
 import MovieList from "@/components/MovieList";
 
 const API_KEY = process.env.API_KEY; // Ensure the environment variable has the NEXT_PUBLIC prefix
