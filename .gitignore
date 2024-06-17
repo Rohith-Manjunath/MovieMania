@@ -53,3 +53,4 @@ server/config/config.env
 
 # Local Netlify folder
 .netlify
+.next
