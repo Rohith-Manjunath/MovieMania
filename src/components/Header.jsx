@@ -15,14 +15,16 @@ const Header = () => {
           Icon={HiMiniInformationCircle}
         />
       </div>
-      <Link href="/" className="flex items-center justify-center gap-4">
+      <div className="flex items-center justify-center gap-4">
         <DarkModeSwitch />
 
-        <span className="p-3 bg-amber-400 text-2xl rounded-md font-semibold">
-          IMDB
-        </span>
-        <span className="font-semibold mx-1 hidden sm:inline">Clone</span>
-      </Link>
+        <Link href="/" className="">
+          <span className="p-3 bg-amber-400 text-2xl rounded-md font-semibold">
+            IMDB
+          </span>
+          <span className="font-semibold mx-1 hidden sm:inline">Clone</span>
+        </Link>
+      </div>
     </div>
   );
 };
