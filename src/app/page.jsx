@@ -1,6 +1,6 @@
 import MovieList from "@/components/MovieList";
-export const dynamic = "force-dynamic";
-export const fetchCache = "force-no-store";
+// export const dynamic = "force-dynamic";
+// export const fetchCache = "force-no-store";
 
 const API_KEY = process.env.API_KEY; // Ensure the environment variable has the NEXT_PUBLIC prefix
 

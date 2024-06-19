@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Movie Mania App
 
-## Getting Started
+![Website Screenshot](./src/assets/Screenshots%20(1).png)
+![Website Screenshot](./src/assets/Screenshots%20(2).png)
+![Website Screenshot](./src/assets/Screenshots%20(3).png)
+![Website Screenshot](./src/assets/Screenshots%20(4).png)
+![Website Screenshot](./src/assets/Screenshots%20(5).png)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Welcome to Your Movie/Series Information App, a full-stack Next.js application that allows users to search and view information about movies and TV series. This project is integrated with the TMDB (The Movie Database) API to fetch comprehensive data about various titles. The app also features a sleek light and dark mode for enhanced user experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- **Movie/Series Search**: Easily search for movies and TV series by title.
+- **Detailed Information**: Access detailed information about each title, including synopsis, cast, ratings, and more.
+- **Light and Dark Mode**: Switch between light and dark themes for comfortable viewing in different environments.
+- **Checkout Process:** Complete the purchase with secure payment processing.
+- **Responsive Design**: Enjoy a seamless experience across different devices and screen sizes.
+- **TMDB API Integration**: Retrieve up-to-date and accurate data from the TMDB API.
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Frontend:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Next.js (React framework)
+Tailwind CSS (Styling)
 
-## Deploy on Vercel
+### APIs:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+TMDB API (Movie and TV series data)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Live Link
+
+ - [LiveDemo](https://ecommerce20.netlify.app/)
+
+## Stay-in-Touch
+
+Connect with me on social media:
+
+## Connect with Me
+
+Feel free to connect with me on professional platforms:
+
+[![Twitter](https://img.shields.io/badge/Twitter-rohith_m_kira-00acee?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/rohith_m_kira)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-rohith_kira-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rohith-kira-bab309267/)
+ 
+[![Instagram](https://img.shields.io/badge/Instagram-rohith_kira-e4405f?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/rohith_kira/)
