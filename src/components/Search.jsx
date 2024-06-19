@@ -24,9 +24,11 @@ const Search = () => {
       />
       <button
         type="submit"
-        className={`  mx-2 sm:mx-4 ${
-          search === "" ? "text-grey-400" : "text-amber-400"
-        } ${search === "" ? "cursor-not-allowed" : "cursor-pointer"}`}
+        className={`mx-2 sm:mx-4 px-6 py-3 font-semibold rounded-lg shadow-md transition-all duration-300 ${
+          search === ""
+            ? "bg-gray-200 text-gray-400 cursor-not-allowed"
+            : "bg-amber-500 text-white hover:bg-amber-600"
+        }`}
         disabled={search === ""}
       >
         Search

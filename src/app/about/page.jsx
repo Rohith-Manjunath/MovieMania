@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+export const fetchCache = "force-no-store";
+
 const About = () => {
   return (
     <div className="px-6 max-w-7xl mx-auto">
